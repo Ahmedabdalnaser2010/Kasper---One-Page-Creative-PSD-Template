@@ -1113,10 +1113,8 @@ section#home::after {
 #pricing .subscribe .email i {
     font-size: 1.5em;
     position: absolute;
-    left: 40px;
-    bottom: 69%;
-
-
+    left: 20px;
+    bottom: 30%;
 }
 
 #pricing .subscribe form {
@@ -1126,6 +1124,7 @@ section#home::after {
     flex-grow: 1;
     max-width: 500px;
     z-index: 4;
+    position: relative;
 }
 
 #pricing .subscribe form input:nth-child(2)::placeholder {
