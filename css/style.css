@@ -1107,12 +1107,15 @@ section#home::after {
     align-items: center;
     justify-content: space-around;
     text-align: left;
+    position: relative;
 }
 
 #pricing .subscribe .email i {
     font-size: 1.5em;
-    position: relative;
-    left: 10%;
+    position: absolute;
+    left: 40px;
+    bottom: 69%;
+
 
 }
 
@@ -1125,11 +1128,11 @@ section#home::after {
     z-index: 4;
 }
 
-#pricing .subscribe form input:first-child::placeholder {
+#pricing .subscribe form input:nth-child(2)::placeholder {
     color: white;
 }
 
-#pricing .subscribe form input:first-child {
+#pricing .subscribe form input:nth-child(2) {
     border: 1px solid white;
     background-color: transparent;
     border-right-color: transparent;
@@ -1141,14 +1144,9 @@ section#home::after {
 }
 
 
-/* #pricing .subscribe form input::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f0e0";
-    position: absolute;
-    font-weight: 900;
-} */
 
-#pricing .subscribe form input:nth-child(2) {
+
+#pricing .subscribe form input:nth-child(3) {
     background-color: var(--main-color);
     border-left-color: transparent;
     padding: 15px 20px;
